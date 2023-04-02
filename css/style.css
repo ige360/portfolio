@@ -1,0 +1,573 @@
+/* BODY CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    scroll-behavior: smooth;
+    border: none;
+    width: auto;
+}
+
+/* FIRST PAGE  */
+
+#first-page {
+    height: 100%;
+    width: 100%;
+    background: #2b3467;
+}
+
+/* NAVIGATION MENU */
+
+header {
+    width: 100%;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    background: #2b3467;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin: 0 auto;
+    /* border-radius: 0 0 10px 10px; */
+}
+.brand-name {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: "ubuntu";
+}
+nav ul {
+    display: flex;
+    margin-top: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    margin: 0 10px;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 7px;
+    color: #fff;
+    font-family: "ubuntu";
+}
+nav ul li a:hover {
+    background: #f8f988;
+    color: blue;
+}
+.hamburger {
+    display: none;
+    height: fit-content;
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 5px;
+    transition: 0.2m;
+}
+.hamburger:hover {
+    background: black;
+}
+.hamburger div {
+    width: 30px;
+    height: 2px;
+    margin: 6px 0;
+    background: #fff;
+}
+
+ /* TITLE PAGE */
+
+.title-page {
+  padding: 10% 0 0 8%;
+}
+.title-page h3 {
+  padding-bottom: 10px;
+  font-size: 2.2rem;
+  color: #fff;
+  text-align: left;
+  font-family: "Ubuntu";
+}
+.title-page h1 {
+  padding-bottom: 5px;
+  font-size: 5rem;
+  color: #fff;
+  font-family: 'Sacramento', cursive;
+}
+.title-page h2 {
+  font-size: 2.2rem;
+  color: #fff;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+}
+.title-page p {
+  width: 40%;
+  padding-top: 20px;
+  color: #a5f1e9;
+  font-family: 'Montserrat', sans-serif;
+}
+span {
+  color: #f8f988;
+}
+.icon {
+  display: block;
+}
+.title-page .icon a {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: #red;
+  border: 1.3rem solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 0.2rem 0.5rem;
+  font-size: 1.6rem;
+  color: black;
+  margin: 1rem 1.5rem 3rem 0;
+  transition: 0.9s ease;
+
+}
+
+.icon .twitter:hover {
+  border-color: black;
+  color: #97deff;
+}
+.icon .facebook:hover {
+  color: #537fe7;
+  border-color: black;
+}
+.icon .instagram:hover {
+  border-color: black;
+  color: #ea8fea;
+}
+.icon .mail:hover {
+  border-color: black;
+  color: #e21818;
+}
+.icon .watsapp:hover {
+  border-color: black;
+  color: green;
+}
+
+/* ABOUT ME SECTION */
+
+.about-header {
+  display: flex;
+  flex-direction: row;
+  padding: 0 40%;
+  margin-top: 30px;
+  font-weight: bold;
+  font-family: "Ubuntu";
+}
+.about-header:before, .about-header:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid;
+  margin: auto;
+}
+.about-header:before {
+  margin-right: 10px;
+}
+.about-header:after {
+  margin-left: 10px;
+}
+.about-me {
+  padding: 7% 12%;
+}
+.about-info .linkedin {
+  margin-top: 30px;
+  cursor: pointer;
+}
+.info img {
+  width: 80%;
+  border-radius: 12px;
+}
+.about-info {
+  padding-top: 70px;
+}
+.about-info p {
+  line-height: 2;
+  font-size: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+#about p {
+  color: #694e4e;
+  font-family: 'Montserrat', sans-serif;
+}
+.about-info a {
+  text-decoration: none;
+}
+.about-info a:hover {
+  text-decoration: underline;
+}
+.lets-chat {
+  display: inline-block;
+  margin-top: 20%;
+  color: #fff;
+  background-color: #19a7ce;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+    padding: 0.8rem 1.2rem;
+}
+
+/* SKILLS SECTION */
+
+.skills-layout  {
+  text-align: center;
+  padding: 0 5%;
+}
+#skills {
+  padding: 7% 10% 7%;
+  background: #b1b2ff;
+}
+.skills-header {
+  display: flex;
+  flex-direction: row;
+  padding: 0 40%;
+  margin-top: 30px;
+  font-weight: bolder;
+  font-family: "Ubuntu";
+}
+.skills-header:before, .skills-header:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid;
+  margin: auto;
+}
+.skills-header:before {
+  margin-right: 10px;
+}
+.skills-header:after {
+  margin-left: 10px;
+}
+.html img {
+  width: 35%;
+  margin-left: 8%;
+  margin-top: 6%;
+}
+.java img {
+  width: 63%;
+}
+.css img {
+  width: 28%;
+  margin-left: 9%;
+}
+#skills h3 {
+  padding: 7% 0 7%;
+  text-align: center;
+}
+.skills-layout p {
+  margin-top: 5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* WORKS SECTION */
+
+#works-section {
+  padding: 7% 9%;
+  background-color: #f8f988;
+}
+#works-section h1 {
+  padding-bottom: 60px;
+}
+.first {
+  background: #1F8A70;
+}
+.second {
+  background: #19A7CE;
+}
+.third {
+  background: #AA77FF;
+}
+.forth {
+  background-color: #D5B4B4;
+}
+.works-classes img {
+  width: 90%;
+  padding: 4% 0% 2% 10%;
+}
+.works-classes p, h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.works-classes h3 {
+  color: #fff;
+}
+.btn {
+  display: inline-block;
+  padding: 1.2rem 4.2rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 12px;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-left: 30%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background: #2b3467;
+  transition: 0.5s ease;
+}
+.btn:hover {
+  background: #fff;
+  border: 1px solid green;
+}
+
+/* .demo {
+  margin-left: 30%;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  background: #2b3467;
+  color: #fff;
+  width: 40%;
+  font-family: 'Montserrat', sans-serif;
+}
+.demo:hover {
+  background: #fff;
+  border: 1px solid green;
+} */
+.works-classes {
+  width: 100%;
+  border: 1px solid #fff;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+/* CONTACT ME SECTION */
+
+.contact-me a {
+    color: #fff;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 43px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-me {
+    background-color: #19a7ce;
+    border: 2px solid #19a7ce;
+    border-radius: 10px;
+    margin-top: 1%;
+}
+.contact-me:hover {
+  background: #146c94;
+}
+.phone-text, .email-text, .location-text {
+  padding-left: 20px;
+}
+.phone-text h4, .email-text h4, .location-text h4 {
+  text-align: inherit;
+  color: black;
+}
+input[type=text], select, input[type=email], select {
+  width: 80%;
+  padding: 10px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+input[type=textarea], select {
+  width: 80%;
+  height: 180px;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+.contact {
+  background-color: #b1b2ff;
+  padding: 7% 0 7% 10%;
+  width: 80%;
+  border-radius: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
+.call, .Email, .location {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.contactme {
+  padding: 6% 5% 4% 10%;
+}
+#contact-me {
+  padding-top: 8%;
+}
+#contact-me h3 {
+  text-align: center;
+  padding: 3% 0 0%;
+  font-size: 2.1rem;
+}
+.send-message {
+  margin-top: 40px;
+  display: inline-block;
+  padding: 0.4rem 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 12px;
+  font-size: 1.6rem;
+  background: green;
+  text-decoration: none;
+  color: #fff;
+}
+.send-message:hover {
+  color: black;
+  background: #a5f1e9;
+}
+
+/* FOOTER SECTION */
+
+
+#footer {
+  text-align: center;
+  padding: 4% 15%;
+  background: #2b3467;
+}
+#footer p {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+.icon-bottom {
+  margin: 15px 7px;
+  color: #fff;
+  cursor: pointer;
+}
+.twitter:hover {
+  color: #97deff;
+}
+.facebook:hover {
+color: #537fe7;
+}
+.instagram:hover {
+color: #ea8fea;
+}
+.mail:hover {
+color: #e21818;
+}
+
+   /* MEDIA QUARIES
+   MEDIA QUARIES
+   MEDIA QUARIES
+   MEDIA QUARIES */
+
+
+
+@media (max-width: 1200px) {
+    header {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .logo {
+        position: absolute;
+        left: -100px;
+        top: 240px;
+      }
+      .contact-me {
+        display: none;
+      }
+
+    nav {
+        position: absolute;
+        right: -900px;
+        top: 70px;
+        z-index: 999;
+        width: 100%;
+        height: 100%;
+        background-color: blue;
+        transition: 0.3s;
+        height: 50%;
+    }
+    #nav_check:checked ~ nav {
+        left: 0;
+
+    }
+    .about-info p {
+      font-size: 16px;
+      line-height: 1.7;
+    }
+    .brand-name {
+        margin-top: 20px;
+    }
+    nav .logo {
+        display: block;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        margin-left: 30px;
+    }
+    nav ul {
+        display: block;
+        padding: 0 20px;
+        margin-top: 10px;
+        background-color: blue;
+    }
+    nav ul li a {
+        margin-bottom: 15px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    .hamburger {
+        display: block;
+    }
+    .hamburger div {
+        color: #fff;
+    }
+    .about-header {
+          padding: 0 18%;
+          font-weight: bold;
+    }
+    .btn {
+        padding: 0.6rem 2.2rem;
+    }
+    .title-page {
+      padding-top: 140px;
+    }
+    .title-page p {
+      width: 100%;
+      text-align: center;
+    }
+    .title-page h3, h1 {
+      text-align: center;
+    }
+    .title-page h2 {
+      width: 90%;
+      text-align: center;
+      font-size: 30px;
+    }
+    .title-page h1 {
+      font-size: 70px;
+    }
+    .contact-me {
+      margin-left: 120px;
+    }
+    .lets-chat {
+      margin-top: 50px;
+    }
+    .skills-layout img {
+      margin-top: 30px;
+    }
+    #contact-me h3 {
+      font-size: 1.7rem;
+      padding-bottom: 33px;
+    }
+    .contact {
+      background-color: #b1b2ff;
+      padding: 7% 0 7% 10%;
+      width: 92%;
+    }
+    .title-page .icon a {
+      border: 1rem solid #fff;
+      box-shadow: 0 0.2rem 0.5rem;
+      font-size: 1rem;
+      margin: 1.4rem .3rem 3.5rem 0;
+
+    }
+    .send-message {
+      padding: 0.4rem 1.5rem;
+      font-size: 15px;
+
+    }
+
+
+}
